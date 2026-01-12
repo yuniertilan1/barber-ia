@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Barber IA - Asistente por WhatsApp para Barberías</title>
+  <meta name="description" content="Barber IA es un asistente por WhatsApp para barberías y peluquerías que ayuda a agendar, consultar, cancelar y reagendar citas del día." />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; line-height: 1.5; }
+    header, main, footer { max-width: 900px; margin: 0 auto; padding: 24px; }
+    header { padding-top: 40px; }
+    .card { border: 1px solid #e6e6e6; border-radius: 12px; padding: 18px; margin: 16px 0; }
+    a { color: inherit; }
+    nav a { margin-right: 14px; }
+    small { color: #666; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Barber IA</h1>
+    <p>Asistente por WhatsApp para barberías y peluquerías.</p>
+    <nav>
+      <a href="./privacy.html">Aviso de Privacidad</a>
+      <a href="./terms.html">Términos y Condiciones</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>¿Qué hace Barber IA?</h2>
+      <p>
+        Barber IA ayuda a clientes de barberías/peluquerías a <strong>agendar</strong>, <strong>consultar</strong>,
+        <strong>cancelar</strong> y <strong>reagendar</strong> citas mediante WhatsApp.
+      </p>
+      <p>
+        El servicio está diseñado para <strong>gestionar citas del día</strong> (mismo día) con bloques típicos de 30 minutos
+        según la configuración del negocio.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Contacto</h2>
+      <p>
+        Si necesitas soporte o tienes dudas, escríbenos a:
+        <strong>figaroia.mx@gmail.com</strong>
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Transparencia</h2>
+      <p>
+        Barber IA es un servicio independiente. <strong>No está afiliado, patrocinado ni respaldado por WhatsApp o Meta.</strong>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <small>© <span id="y"></span> Barber IA · <a href="./privacy.html">Privacidad</a> · <a href="./terms.html">Términos</a></small>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
